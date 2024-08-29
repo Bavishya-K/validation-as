@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/light_background">
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:background="@drawable/custom_input_background"
+        android:padding="12dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_color"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"
+        android:maxLines="1"/>
+
+
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:background="@drawable/custom_input_background"
+        android:padding="12dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_color"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <!-- Validate Button -->
+    <Button
+        android:id="@+id/buttonValidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+
+    <!-- Your Name -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designed by Bavishya"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
